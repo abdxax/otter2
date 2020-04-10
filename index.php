@@ -1,4 +1,5 @@
 <?php 
+session_start();
 require "conne.php";
 
 ?>
@@ -211,7 +212,7 @@ require "conne.php";
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#about">ABOUT2</a></li>
             <li><a href="#services">SERVICES</a></li>
             <li><a href="#train trips">SCHEDUALE TRIPS</a></li>
             <li><a href="search.php">SEARCH </a></li>
